@@ -4,13 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainFrame extends JFrame {
+    /**This is main frame. I use my graphics interface and draw all object.**/
 
     private List<GraphicsObject> listObject = new ArrayList<>();
 
     public MainFrame(){
         super("Task 1");
         DrawPanel panel = new DrawPanel(listObject);
-        setMinimumSize(new Dimension(1015, 739));
+        setMinimumSize(new Dimension(1000, 739));
         setContentPane(panel);
         creatingAPicture();
         setVisible(true);
@@ -29,7 +30,7 @@ public class MainFrame extends JFrame {
         listObject.add(new Tree(700,650,400));
         listObject.add(new Tree(300,550,300));
         listObject.add(new Tree(50,650,400));
-        listObject.add(new TextTable(450,550,50));
+        listObject.add(new TextTable(450,550,50, "Не мусорить!"));
     }
 
 

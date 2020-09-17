@@ -2,6 +2,11 @@ import java.awt.*;
 
 public class Cloud implements GraphicsObject {
 
+    /**This is Cloud.
+     Parameters:
+     x,y: The coordinates of the drawing. Drawing in center.
+     width: Length width.**/
+
     private int x,y;
     private int height;
     private int weigh;

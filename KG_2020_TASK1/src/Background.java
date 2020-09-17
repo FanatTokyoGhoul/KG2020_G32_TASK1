@@ -1,6 +1,12 @@
 import java.awt.*;
 
 public class Background implements GraphicsObject {
+    /**This is background.
+     Parameters:
+     x,y: The coordinates of the drawing. Drawing from the upper-left corner.
+     width: Length width.
+     height: Length height.
+     color: Fill color.**/
     private int width;
     private int height;
     private int x,y;

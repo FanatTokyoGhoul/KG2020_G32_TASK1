@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38ee339d-93eb-4294-b8e8-369cd68a7a39" name="Default Changelist" comment="" />
+    <list default="true" id="38ee339d-93eb-4294-b8e8-369cd68a7a39" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../KG_2020_TASK1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KG_2020_TASK1/MainFrame$DrawPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KG_2020_TASK1/MainFrame$DrawPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KG_2020_TASK1/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KG_2020_TASK1/MainFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KG_2020_TASK1/Sun.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KG_2020_TASK1/Sun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KG_2020_TASK1/TextTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KG_2020_TASK1/TextTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Background.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Background.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cloud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cloud.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DrawPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GraphicsObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraphicsObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TextTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -15,21 +36,42 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1hawFCMhKN5U8T2TuGyleGD0ZOo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.22419627" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="KG_2020_TASK1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -40,18 +82,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -64,33 +95,50 @@
       <updated>1600262404698</updated>
       <workItem from="1600262407988" duration="7306000" />
       <workItem from="1600275152467" duration="10148000" />
+      <workItem from="1600324632494" duration="2329000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="166" y="27" width="1024" height="702" key="#Project_Structure" timestamp="1600324765230">
+      <screen x="0" y="27" width="1366" height="702" />
+    </state>
+    <state x="166" y="27" width="1024" height="702" key="#Project_Structure/0.27.1366.702@0.27.1366.702" timestamp="1600324765230" />
     <state x="671" y="302" key="#com.intellij.ide.util.MemberChooser" timestamp="1600283789177">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="671" y="302" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1600283789177" />
-    <state width="1505" height="316" key="GridCell.Tab.0.bottom" timestamp="1600285307068">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state x="148" y="27" width="1060" height="702" key="CommitChangelistDialog2" timestamp="1600325082495">
+      <screen x="0" y="27" width="1366" height="702" />
+    </state>
+    <state x="148" y="27" width="1060" height="702" key="CommitChangelistDialog2/0.27.1366.702@0.27.1366.702" timestamp="1600325082495" />
+    <state x="466" y="135" width="424" height="484" key="FileChooserDialogImpl" timestamp="1600324770080">
+      <screen x="0" y="27" width="1366" height="702" />
+    </state>
+    <state x="466" y="135" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.702@0.27.1366.702" timestamp="1600324770080" />
+    <state width="1320" height="163" key="GridCell.Tab.0.bottom" timestamp="1600326423273">
+      <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1505" height="316" key="GridCell.Tab.0.bottom/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1600285307068" />
-    <state width="1505" height="316" key="GridCell.Tab.0.center" timestamp="1600285307068">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state width="1320" height="163" key="GridCell.Tab.0.bottom/0.27.1366.702@0.27.1366.702" timestamp="1600326423273" />
+    <state width="1320" height="163" key="GridCell.Tab.0.center" timestamp="1600326423272">
+      <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1505" height="316" key="GridCell.Tab.0.center/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1600285307068" />
-    <state width="1505" height="316" key="GridCell.Tab.0.left" timestamp="1600285307068">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state width="1320" height="163" key="GridCell.Tab.0.center/0.27.1366.702@0.27.1366.702" timestamp="1600326423272" />
+    <state width="1320" height="163" key="GridCell.Tab.0.left" timestamp="1600326423272">
+      <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1505" height="316" key="GridCell.Tab.0.left/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1600285307068" />
-    <state width="1505" height="316" key="GridCell.Tab.0.right" timestamp="1600285307068">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state width="1320" height="163" key="GridCell.Tab.0.left/0.27.1366.702@0.27.1366.702" timestamp="1600326423272" />
+    <state width="1320" height="163" key="GridCell.Tab.0.right" timestamp="1600326423273">
+      <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1505" height="316" key="GridCell.Tab.0.right/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1600285307068" />
+    <state width="1320" height="163" key="GridCell.Tab.0.right/0.27.1366.702@0.27.1366.702" timestamp="1600326423273" />
     <state width="1505" height="316" key="GridCell.Tab.1.bottom" timestamp="1600285307069">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -107,10 +155,18 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1505" height="316" key="GridCell.Tab.1.right/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1600285307069" />
+    <state x="166" y="27" width="1024" height="702" key="SettingsEditor" timestamp="1600324829718">
+      <screen x="0" y="27" width="1366" height="702" />
+    </state>
+    <state x="166" y="27" width="1024" height="702" key="SettingsEditor/0.27.1366.702@0.27.1366.702" timestamp="1600324829718" />
     <state x="529" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1600275151792">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="529" y="384" key="com.intellij.ide.util.TipDialog/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1600275151792" />
+    <state x="464" y="292" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600327163324">
+      <screen x="0" y="27" width="1366" height="702" />
+    </state>
+    <state x="464" y="292" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1366.702@0.27.1366.702" timestamp="1600327163324" />
     <state x="496" y="287" width="672" height="678" key="search.everywhere.popup" timestamp="1600275928957">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -121,22 +177,22 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Tree.java</url>
-          <line>31</line>
+          <line>35</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Cloud.java</url>
-          <line>18</line>
+          <line>23</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Cloud.java</url>
-          <line>25</line>
+          <line>30</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MainFrame.java</url>
-          <line>44</line>
+          <line>45</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>

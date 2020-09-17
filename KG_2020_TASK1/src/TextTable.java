@@ -2,13 +2,21 @@ import java.awt.*;
 
 public class TextTable implements GraphicsObject {
 
+    /**This is Lake.
+     Parameters:
+     x,y: The coordinates of the drawing. Drawing from the upper-left corner.
+     width: Length width.
+     Text: Text on table.**/
+
     private int x,y;
     private int height;
     private int weigh;
+    private final String text;
 
-    public TextTable(int x, int y, int weigh) {
+    public TextTable(int x, int y, int weigh, String text) {
         this.x = x;
         this.y = y;
+        this.text = text;
         this.weigh = weigh;
         this.height = weigh * 6 / 5;
     }
@@ -30,11 +38,14 @@ public class TextTable implements GraphicsObject {
                 RenderingHints.VALUE_ANTIALIAS_ON);
         Font font = new Font("Serif", Font.PLAIN, (int)(weigh * 0.15));
         gr.setFont(font);
-        gr.drawString("Не мусорить!", x + (int)(weigh * 0.06), y + (int)(height * 0.25));
+        gr.drawString(text, x + (int)(weigh * 0.06), y + (int)(height * 0.25));
     }
 
     @Override
     public void scale(double proportion) {
-
+        this.weigh = (int)(weigh * proportion);
+        this.height = weigh * 6 / 5;
+        x = (int)(x * proportion);
+        y = (int)(y * proportion);
     }
 }

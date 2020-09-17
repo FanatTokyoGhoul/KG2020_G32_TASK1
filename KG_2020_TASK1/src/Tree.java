@@ -1,6 +1,10 @@
 import java.awt.*;
 
 public class Tree implements GraphicsObject {
+    /**This is Lake.
+     Parameters:
+     x,y: The coordinates of the drawing. Drawing at the root of the tree.
+     height: Length height.**/
     private int x,y;
     private int height;
     private int weigh;

@@ -2,6 +2,11 @@ import java.awt.*;
 
 public class Lake implements GraphicsObject {
 
+    /**This is Lake.
+     Parameters:
+     x,y: The coordinates of the drawing. Drawing in center.
+     width: Length width.
+     height: Length height.**/
     private int x,y;
     private int height;
     private int weigh;

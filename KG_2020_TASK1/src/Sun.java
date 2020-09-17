@@ -1,6 +1,15 @@
 import java.awt.*;
 
 public class Sun implements GraphicsObject {
+
+    /**This is Lake.
+     Parameters:
+     x,y: The coordinates of the drawing. Drawing in center.
+     width: Length width.
+     height: Length height.
+     color: Fill color.
+     n: Number of beams.**/
+
     private int size;
     private Color color;
     private int x, y;
@@ -33,7 +42,6 @@ public class Sun implements GraphicsObject {
 
     @Override
     public void scale(double proportion) {
-        double[][] matrixScale2D = {{proportion,0},{0, proportion}};
         size = (int)(size * proportion);
         x = (int)(x * proportion);
         y = (int)(y * proportion);
