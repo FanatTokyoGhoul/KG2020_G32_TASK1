@@ -1,1 +1,1 @@
-<img src="https://vk.com/im?peers=c84_c80_199869043_138318765_c83_255484079_271571264&sel=151849471&z=photo151849471_457240402%2Fmail788387" />
+<img src="https://github.com/FanatTokyoGhoul/KG2020_G32_TASK1/blob/master/KG_2020_TASK1/Screnshots/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202020-09-17%2015-25-00.png" />
