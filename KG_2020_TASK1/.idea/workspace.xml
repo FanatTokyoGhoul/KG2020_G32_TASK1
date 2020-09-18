@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38ee339d-93eb-4294-b8e8-369cd68a7a39" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DrawPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KG_2020_TASK1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/KG_2020_TASK1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KG_2020_TASK1/MainFrame$DrawPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KG_2020_TASK1/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KG_2020_TASK1/MainFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +46,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.22419627" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
+    <property name="settings.editor.selected.configurable" value="org.infernus.idea.checkstyle.CheckStyleConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -55,7 +62,19 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -70,6 +89,7 @@
       <workItem from="1600275152467" duration="10148000" />
       <workItem from="1600324632494" duration="3593000" />
       <workItem from="1600345421411" duration="634000" />
+      <workItem from="1600446831475" duration="1292000" />
     </task>
     <task id="LOCAL-00001" summary="Add commit and minor amendment.">
       <created>1600327237807</created>
@@ -89,7 +109,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -146,12 +166,6 @@
         </entry>
       </map>
     </option>
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="1" value="TOOL_WINDOW" />
-        <entry key="2" value="TOOL_WINDOW" />
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add commit and minor amendment." />
@@ -159,6 +173,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Add screenshots." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="437" y="168" key="#Inspections" timestamp="1600447943244">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="437" y="168" key="#Inspections/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1600447943244" />
     <state x="166" y="27" width="1024" height="702" key="#Project_Structure" timestamp="1600324765230">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
@@ -167,6 +185,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="671" y="302" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1600283789177" />
+    <state x="693" y="398" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1600446843849">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="693" y="398" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1600446843849" />
     <state x="148" y="27" width="1060" height="702" key="CommitChangelistDialog2" timestamp="1600345618291">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
@@ -211,9 +233,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1505" height="316" key="GridCell.Tab.1.right/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1600285307069" />
-    <state x="166" y="27" width="1024" height="702" key="SettingsEditor" timestamp="1600324829718">
-      <screen x="0" y="27" width="1366" height="702" />
+    <state x="204" y="0" width="1260" height="1010" key="SettingsEditor" timestamp="1600448124754">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
+    <state x="204" y="0" width="1260" height="1010" key="SettingsEditor/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1600448124754" />
     <state x="166" y="27" width="1024" height="702" key="SettingsEditor/0.27.1366.702@0.27.1366.702" timestamp="1600324829718" />
     <state x="278" y="113" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1600346010862">
       <screen x="0" y="27" width="1366" height="702" />
@@ -249,11 +272,6 @@
           <url>file://$PROJECT_DIR$/src/Cloud.java</url>
           <line>30</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/MainFrame.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
