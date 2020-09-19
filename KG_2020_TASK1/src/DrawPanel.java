@@ -21,5 +21,6 @@ public class DrawPanel extends JPanel {
             object.draw(gr);
         }
         graphics.drawImage(bufferedImage,0,0, null);
+        gr.dispose();
     }
 }
