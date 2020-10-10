@@ -38,7 +38,10 @@ public class TextTable implements GraphicsObject {
                 RenderingHints.VALUE_ANTIALIAS_ON);
         Font font = new Font("Serif", Font.PLAIN, (int)(weigh * 0.15));
         gr.setFont(font);
-        gr.drawString(text, x + (int)(weigh * 0.06), y + (int)(height * 0.25));
+        String[] splitString = text.split(" ");
+        for(int i = 0; i < splitString.length; i++) {
+            gr.drawString(splitString[i], x + (int) (weigh * 0.06), y + (int) (height * 0.2) + i*10);
+        }
     }
 
     @Override
